@@ -3,11 +3,11 @@
 
 This is a little toolset to make life with Atlassian Bitbucket easier.
 There are these helpers:
-- [clone-all-repos-in-project.py](#clone-all-repos-in-project.py)
+- [clone_all_repos_in_project.py](#clone_all_repos_in_project.py)
   - let's you clone all repositories in a specified Bitbucket project
 - ...
 
-## clone-all-repos-in-project.py
+## clone_all_repos_in_project.py
 
 ### Description
 
@@ -27,8 +27,8 @@ To install the required modules simply install them with pip:
 
 ### Usage
 
-    $ python3 ./clone-all-repos-in-project.py --help
-    usage: clone-all-repos-in-project.py [-h] -u URL -l USERNAME -p PROJECT -b BASEDIR [--noverify]
+    $ python3 ./clone_all_repos_in_project.py --help
+    usage: clone_all_repos_in_project.py [-h] -u URL -l USERNAME -p PROJECT -b BASEDIR [--noverify]
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -43,7 +43,7 @@ To install the required modules simply install them with pip:
 
 ### Example
 
-    $ python3 ./clone-all-repos-in-project.py -u https://bitbucket.example.com -l my-user -b ./ -p MYPROJECT
+    $ python3 ./clone_all_repos_in_project.py -u https://bitbucket.example.com -l my-user -b ./ -p MYPROJECT
     Password for my-user:  
     [ ... ]
 
