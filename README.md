@@ -1,3 +1,4 @@
+![Tests](https://github.com/stearz/bitbucket-helpers/actions/workflows/test-latest.yml/badge.svg)
 # bitbucket-helpers
 
 This is a little toolset to make life with Atlassian Bitbucket easier.
@@ -6,8 +7,6 @@ There are these helpers:
   - let's you clone all repositories in a specified Bitbucket project
 - ...
 
-## Build status
-![Tests](https://github.com/stearz/bitbucket-helpers/actions/workflows/test-latest.yml/badge.svg)
 ## clone-all-repos-in-project.py
 
 ### Description
