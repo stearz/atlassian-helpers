@@ -13,7 +13,7 @@ This python script allows you to clone all git repositories from a Bitbucket pro
 
 ### Requirements
 
-Python 3 is required with the following modules (see reqiurements.txt)
+Python >= 3.6 is required with the following modules installed:
 
 - requests
 - GitPython
